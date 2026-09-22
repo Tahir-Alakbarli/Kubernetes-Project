@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: system-health-api-config
+  namespace: kubernetes-recovery
+  labels:
+    app: system-health-api
+data:
+  APP_VERSION: "v1"
